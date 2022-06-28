@@ -1,0 +1,112 @@
+
+
+form{
+    border: #292b2c solid 1px;
+    padding: 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+   
+}
+input[type="text"], input[type="password"], input[type="email"]{
+    font-size: 1rem;
+    padding: 0.7rem;
+    border-radius:5px;
+    margin: 5px 0.5rem;
+    border: 0.5px solid #292b2c;
+    outline: none;
+    display: inline;
+    width: 20rem;
+    font-weight: bold;
+
+}
+input:focus{
+    box-shadow: 0 0 5px #0275d8;
+    border: 1px solid #0275d8;
+}
+h1{
+    text-align: center;
+}
+#email, #phoneNumber{
+    width: 42.7rem;
+
+}
+input[type="checkbox"], label, p{
+    margin: 5px 0;
+}
+p{
+ 
+    width: 35rem;
+    margin-left: 4rem;
+}
+img{
+    height:15px;
+    border-radius:5px;
+}
+label{
+    margin-left: 10px;
+    font-weight: bold;}
+a{
+    text-decoration: none;
+    color: #0275d8;
+}
+
+
+button{
+    padding:0.9rem;
+    border-radius: 10px;
+    outline:none;
+    color: #f7f7f7;
+    font-size: 1.1rem;
+    width:21rem;
+    margin: 5px 1rem;
+}
+#register{
+    background-color: #0275d8;
+}
+#signIn{
+    background-color: #5cb85c;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+@media only screen and (max-width: 780px) {
+   
+    form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 10vh;
+    left: 0;
+    margin: 20px auto;
+    transform: none;
+    text-align: center;
+    align-items: center;
+   }
+   input[type="text"], input[type="password"], input[type="email"]{
+        width:80vw;
+        margin: 5px 0.5rem;
+   }
+   #email, #phoneNumber{
+    width: 80vw;
+      margin: 5px 0.5rem;
+
+}
+p{
+ 
+    width: 60vw;
+    margin-left: 10px;
+}
+br{
+    display: none;
+}
+button{
+    width: 60vw;
+}
+}
+
