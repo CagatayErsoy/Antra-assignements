@@ -1,0 +1,9 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    font-size: large;
+}
+
+li{
+    margin: 2rem;
+}
