@@ -3,7 +3,13 @@ body{
     color: aliceblue;
     font-size: large;
 }
-
+h1{
+    text-align: center;
+}
 li{
     margin: 2rem;
+    padding: 1rem;
+}
+button{
+    margin: 1rem;
 }
